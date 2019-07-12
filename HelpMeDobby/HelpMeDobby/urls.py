@@ -19,5 +19,8 @@ import Account.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Account/', include('Account.urls')),
-    ]
+    # path('Account/signup/', Account.views.signup, name = 'signup'),
+    # path('Account/login/',Account.views.login, name = 'login'),
+    # path('Account/logout/',Account.views.logout, name= 'logout'),
+]
+    
